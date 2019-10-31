@@ -1,0 +1,19 @@
+{
+  "name": "simple-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebohang0824/simple-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lebohang0824/simple-calculator/issues"
+  },
+  "homepage": "https://github.com/lebohang0824/simple-calculator#readme"
+}
