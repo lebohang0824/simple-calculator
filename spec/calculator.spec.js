@@ -1,5 +1,4 @@
-const jasmine = require('jasmine');
-const { add, multiply } = require('../App.js');
+const { add, multiply } = require('../src/calculator.js');
 
 describe('Calculator add function', function () {
 
