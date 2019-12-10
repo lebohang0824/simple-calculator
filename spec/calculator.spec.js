@@ -27,7 +27,7 @@ describe('Calculator multiply function', function () {
 	});
 
 	it('Should return 24', function () {
-		expect(multiply(1,2,3,4)).toBe(24);
+		expect(multiply(2,2,3,4)).toBe(48);
 	});
 
 });

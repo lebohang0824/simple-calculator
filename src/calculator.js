@@ -1,19 +1,21 @@
-exports.add = (...nums) => {
-	let total = 0;
+let add = (...nums) => {
+	let sum = 0;
 
-	nums.forEach(num => {
-		total += num;
+		nums.forEach(num => {
+		sum += num;
 	});
 
-	return total;
+	return sum;
 }
 
-exports.multiply = (...nums) => {
-	let total = 1;
+let multiply = (...nums) => {
+	let product = 1;
 
 	nums.forEach(num => {
-		total *= num;
+		product *= num;
 	});
 
-	return total;
+	return product;
 }
+
+module.exports = { add, multiply }
