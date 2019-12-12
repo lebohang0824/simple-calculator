@@ -1,4 +1,4 @@
-const { add, multiply } = require('../src/calculator.js');
+const { add, multiply } = require('../src/simple_calculator_part1.js');
 
 describe('Calculator add function', function () {
 
